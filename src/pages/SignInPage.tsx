@@ -110,8 +110,8 @@ export function SignIn() {
                     onChange={changeHandler}
                   />
                 </div>
-                <div className="mb-4 text-left flex justify-between items-center">
-                  <div className="mr-3">
+                <div className="mb-4 text-left flex justify-between items-center max-[370px]:block">
+                  <div className="max-[370px]:mb-3">
                     <input
                       className="form-checkbox"
                       type="checkbox"

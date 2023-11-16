@@ -2,7 +2,7 @@ import check from '../img/products/check.svg'
 
 export function Products () {
   return (
-    <div className="container md:my-[80px] my-[40px] border-b-[#33363A] border-b-[1px]">
+    <div className="container md:py-[80px] py-[40px] border-b-[#33363A] border-b-[1px]">
       <div className="md:mb-[80px] mb-[50px] w-full max-w-[690px] mx-auto text-center">
         <div className="text-[#36A269] font-semibold text-sm max-w-[186px] mb-4 mx-auto py-1 px-3 rounded-2xl bg-[#C6F6D5]">Reach goals that matter</div>
         <h2 className="title md:text-4xl text-3xl md:mb-4">One product, unlimited solutions</h2>

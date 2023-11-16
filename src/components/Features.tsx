@@ -40,7 +40,7 @@ export function Features () {
         </div>
         <div className="flex flex-wrap justify-between max-[730px]:justify-center my-6">
           {features.map(({image, id}: IFeature) => {
-            return <div key={id} className="text-center w-full max-w-[325px] mb-5 mr-4">
+            return <div key={id} className="text-center w-full max-w-[325px] mb-5 min-[730px]:mr-4">
               <img className='mx-auto mb-4' src={require(`../img/features/${image}`)} alt="" />
               <h4 className="text-[#D9E3EA] font-bold text-2xl mb-2">Instant Features</h4>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
