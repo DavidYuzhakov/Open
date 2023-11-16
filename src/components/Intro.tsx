@@ -8,9 +8,6 @@ import bg from '../img/intro/bg.svg'
 export function Intro() {
   const [videoModal, setVideoModal] = useState(false);
 
-  useEffect(() => {
-  }, [])
-
   function openVideoModal() {
     setVideoModal(true);
   }
